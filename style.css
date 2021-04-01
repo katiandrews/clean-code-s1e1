@@ -4,7 +4,7 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -13,7 +13,7 @@
 .main-image {
   width: 100%;
 }
-.aaa .more_inf {
+.aaa .more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -88,7 +88,7 @@ button{
 }
 
 /* New Task */
-#topSectionForAddingElementToList .section-title {
+#top-section-for-adding-element-to-list .section-title {
   display: block;
   margin: 0 0 20px;
 }
@@ -133,11 +133,11 @@ button{
   display: none;
 }
 
-.editMode .text-input {
+.edit-mode .text-input {
   display: inline-block;
   width: 224px;
 }
 
-.editMode .task-name {
+.edit-mode .task-name {
   display: none;
 }
