@@ -10,7 +10,7 @@
   display: block;
   text-align: right;
 }
-.main-image {
+.header__image {
   width: 100%;
 }
 .link {
@@ -93,7 +93,7 @@ button{
     margin: 16px 0;
 }
 
-.adding .section-title {
+.adding__title {
   display: block;
   margin: 0 0 20px;
 }
@@ -128,7 +128,7 @@ button{
 }
 
 /* Completed */
-.completed-tasks .task-name {
+.completed__task-list .task-name {
   text-decoration: line-through;
   color: #888;
 }
@@ -138,11 +138,11 @@ button{
   display: none;
 }
 
-.edit-mode .text-input {
+.task-item_edit .text-input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .task-name {
+.task-item_edit .task-name {
   display: none;
 }
