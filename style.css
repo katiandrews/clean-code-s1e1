@@ -13,23 +13,24 @@
 .main-image {
   width: 100%;
 }
-.aaa .more-inf {
+.header .link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .aaa { 
+  .header { 
       text-align: center;
   }
 
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.task-name,
+.text-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -88,7 +89,7 @@ button{
 }
 
 /* New Task */
-#top-section-for-adding-element-to-list .section-title {
+.adding .section-title {
   display: block;
   margin: 0 0 20px;
 }
@@ -123,7 +124,7 @@ button{
 }
 
 /* Completed */
-#completed-tasks .task-name {
+.completed-tasks .task-name {
   text-decoration: line-through;
   color: #888;
 }
