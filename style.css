@@ -13,7 +13,7 @@
 .main-image {
   width: 100%;
 }
-.header .link {
+.link {
   font-family: fantasy, cursive;
 }
 
@@ -89,6 +89,10 @@ button{
 }
 
 /* New Task */
+.adding {
+    margin: 16px 0;
+}
+
 .adding .section-title {
   display: block;
   margin: 0 0 20px;
