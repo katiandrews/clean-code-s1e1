@@ -11,6 +11,7 @@
   text-align: right;
 }
 .header__image {
+  display: block;
   width: 100%;
 }
 .link {
@@ -73,6 +74,7 @@ button{
   text-transform: uppercase;
 }
 .text-input {
+  box-sizing: border-box;
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -119,12 +121,13 @@ button{
 }
 
 .button-bg {
+  display: block;
   height: 2em;
-  transform: rotateZ(45deg);
+  transform: translateX(9px) rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 .button-bg:hover {
-  transform: rotateZ(0);
+  transform: translateX(9px) rotateZ(0);
 }
 
 /* Completed */
